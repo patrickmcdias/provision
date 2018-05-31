@@ -1,0 +1,36 @@
+---
+- name: chrome
+  import_tasks: chrome.yml
+
+- name: filezilla
+  import_tasks: filezilla.yml
+
+- name: pidgin
+  import_tasks: pidgin.yml
+
+- name: sublime3
+  import_tasks: sublime3.yml
+
+- name: emma
+  import_tasks: emma.yml
+
+- name: xfceterm
+  import_tasks: xfceterm.yml
+
+- name: pulse
+  import_tasks: pulse.yml
+
+- name: remmina
+  import_tasks: remmina.yml
+
+- name: htop
+  import_tasks: htop.yml
+
+- name: java
+  import_tasks: java.yml
+
+- name: curl
+  import_tasks: curl.yml
+
+- name: nmap
+  import_tasks: nmap.yml
